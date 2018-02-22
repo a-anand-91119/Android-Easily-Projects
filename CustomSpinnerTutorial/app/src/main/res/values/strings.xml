@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Custom Spinner Tutorial</string>
+    <string name="androideasily_in">androideasily.in</string>
+    <string name="simple_spinner">Simple Spinner</string>
+    <string name="custom_spinner">Custom Spinner</string>
+    <string name="icon_to_be_displayed">Icon To Be Displayed</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/logout"
+        android:title="@string/logout" />
+    <item
+        android:id="@+id/chg_email"
+        android:title="@string/change_email_address" />
+    <item
+        android:id="@+id/del_account"
+        android:title="@string/delete_account" />
+</menu>

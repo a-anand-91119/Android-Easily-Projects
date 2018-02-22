@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Firebase - Login Registration</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account">Don\'t Have An Account?</string>
+    <string name="password">Password</string>
+    <string name="android_easily_logo">Android Easily Logo</string>
+    <string name="name">Name</string>
+    <string name="registration_details">Registration Details:</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="email_address">Email Address</string>
+    <string name="register">Register</string>
+    <string name="user_profile_picture">User Profile Picture</string>
+    <string name="androideasily_in">androideasily.in</string>
+    <string name="name_static">Name:</string>
+    <string name="email_address_static">Email Address:</string>
+    <string name="forgot_password">Forgot Your Password</string>
+    <string name="change_email_address">Change Email Address</string>
+    <string name="send">Send</string>
+    <string name="verify_email">Send Verification Email</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="logout">Logout</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="cancel">Cancel</string>
+    <string name="enter_email_address">Enter Email Address</string>
+    <string name="verified">Email Address Verified</string>
+    <string name="email_not_verified">Email Not Verified</string>
+    <string name="check_verification_status">Check Verification Status</string>
+    <string name="sending_email">Sending Verification Email</string>
+    <string name="email_sent_success">Verification Email Send Successfully</string>
+    <string name="email_check">Please Check Your Inbox</string>
+</resources>

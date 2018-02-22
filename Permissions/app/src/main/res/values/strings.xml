@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Permissions</string>
+
+    <string name="group_request">Group Request</string>
+    <string name="sms">SMS</string>
+    <string name="audio">Audio</string>
+    <string name="calender">Calender</string>
+    <string name="camera">Camera</string>
+    <string name="www_androideasily_in">www.androideasily.in</string>
+</resources>

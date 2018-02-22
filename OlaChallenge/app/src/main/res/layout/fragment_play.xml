@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/album_cover"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:contentDescription="@string/album_image"
+        app:layout_constraintBottom_toTopOf="@+id/playerContainer"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/splash_drawable" />
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/playerContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#252525"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="16dp"
+            android:textColor="#FFF"
+            android:text="@string/choose_a_song_to_stream"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_artist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#FFF"
+            android:textSize="15sp"
+            android:textStyle="normal"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_name" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="#2e2e2e"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_artist">
+
+            <ImageButton
+                android:id="@+id/bt_previous"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight=".33"
+                android:clickable="true"
+                android:background="@color/bt_color"
+                android:contentDescription="@string/favorite"
+                android:focusable="true" />
+
+            <ImageButton
+                android:id="@+id/bt_play_pause"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight=".33"
+                android:clickable="true"
+                android:background="@color/bt_color"
+                app:srcCompat="@drawable/ic_play_arrow_white_24dp"
+                android:contentDescription="@string/play_pause"
+                android:focusable="true" />
+
+            <ImageButton
+                android:id="@+id/bt_next"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight=".3"
+                android:clickable="true"
+                android:background="@color/bt_color"
+                app:srcCompat="@drawable/ic_stop_white_24dp"
+                android:contentDescription="@string/stop"
+                android:focusable="true" />
+            <ImageButton
+                android:id="@+id/bt_download"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_weight=".3"
+                android:clickable="true"
+                android:background="@color/bt_color"
+                app:srcCompat="@drawable/ic_file_download_white_24dp"
+                android:contentDescription="@string/stop"
+                android:focusable="true" />
+
+        </LinearLayout>
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>
+

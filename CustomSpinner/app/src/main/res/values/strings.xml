@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Custom Spinner</string>
+    <string name="androideasily">androideasily.in</string>
+    <string name="simple_spinner">Simple Spinner</string>
+    <string name="custom_spinner">Custom Spinner</string>
+    <string name="custom_spinner_2">Custom Spinner 2</string>
+    <string name="displays_the_material_icon">Displays The Material Icon</string>
+
+    <string-array name="android_versions">
+        <item>Nougat</item>
+        <item>Marshmallow</item>
+        <item>Lollipop</item>
+        <item>Kitkat</item>
+        <item>JellyBean</item>
+        <item>Ice Cream Sandwich</item>
+        <item>Honeycomb</item>
+        <item>Gingerbread</item>
+        <item>Froyo</item>
+        <item>Eclair</item>
+        <item>Donut</item>
+    </string-array>
+</resources>

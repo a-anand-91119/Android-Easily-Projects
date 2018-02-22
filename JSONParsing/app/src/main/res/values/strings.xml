@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">JSONParsing</string>
+    <string name="android_easily">Android Easily!</string>
+    <string name="json_parsing_using_gson_and_android_parser">JSON Parsing using GSON and Android Parser</string>
+</resources>

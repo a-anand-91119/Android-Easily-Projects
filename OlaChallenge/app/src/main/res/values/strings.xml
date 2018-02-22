@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Ola Play</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="tab_text_1">Songs</string>
+    <string name="tab_text_2">Now Playing</string>
+    <string name="tab_text_4">Favourites</string>
+
+    <string name="search">Search For A Song</string>
+    <string name="added_to_favorites_playlist">Added to Favorites Playlist</string>
+    <string name="choose_a_song_to_stream">Choose A Song To Stream</string>
+    <string name="album_image">Album Image</string>
+    <string name="favorite">Add to Favourite</string>
+    <string name="play_pause">Play/Pause</string>
+    <string name="stop">Stop Playback</string>
+    <string name="stream">Please choose a song to stream</string>
+    <string name="favourite_songs">Favourite Songs</string>
+
+</resources>
