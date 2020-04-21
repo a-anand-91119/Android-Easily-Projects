@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.a3solutions.e_college.AdminActivity">
+
+    <Button
+        android:id="@+id/bt_student"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#FFF"
+        android:padding="5dp"
+        android:text="Add Student"
+        android:layout_above="@+id/bt_admin"
+        android:layout_toStartOf="@+id/bt_admin" />
+
+    <Button
+        android:id="@+id/bt_faculty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#FFF"
+        android:padding="5dp"
+        android:text="Add Faculty"
+        android:layout_above="@+id/bt_admin"
+        android:layout_toEndOf="@+id/bt_admin" />
+
+    <Button
+        android:id="@+id/bt_admin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#FFF"
+        android:padding="5dp"
+        android:text="Add Admin"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/bt_attendance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@color/colorPrimaryDark"
+        android:textColor="#FFF"
+        android:padding="5dp"
+        android:text="View Attendance"
+        android:layout_below="@+id/bt_admin"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

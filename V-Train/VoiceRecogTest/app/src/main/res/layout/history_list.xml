@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="5dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_train_class"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:background="#7c0a36"
+        android:padding="4dp"
+        android:textColor="#fff"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true" />
+
+    <TextView
+        android:id="@+id/tv_train_pnr"
+        android:layout_width="wrap_content"
+        android:layout_marginStart="5dp"
+        android:textSize="15sp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tv_train_class"
+        android:layout_alignBottom="@+id/tv_train_class"
+        android:layout_toEndOf="@+id/tv_train_class" />
+</RelativeLayout>

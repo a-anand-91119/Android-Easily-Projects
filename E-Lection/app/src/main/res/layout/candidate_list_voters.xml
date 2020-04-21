@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ECEFF1"
+    android:padding="0dp">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/cv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="4dp"
+        app:cardElevation="5dp"
+        app:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="142dp"
+            android:padding="7dp">
+
+            <TextView
+                android:id="@+id/candidatename_card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="2dp"
+                android:text="Candidate Name"
+                android:textColor="#3140a0"
+                android:textSize="30sp"
+                android:textStyle="normal" />
+
+            <View
+                android:id="@+id/view"
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:layout_alignBottom="@+id/candidatename_card"
+                android:layout_alignParentStart="true"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="20dp"
+                android:background="#c0c0c0" />
+
+            <com.android.volley.toolbox.NetworkImageView
+                android:id="@+id/nwv_candidate"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_below="@+id/view"
+                app:srcCompat="@drawable/common_google_signin_btn_icon_dark" />
+
+            <TextView
+                android:id="@+id/party_card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textviewtest"
+                android:layout_alignBottom="@+id/textviewtest"
+                android:layout_toEndOf="@+id/textviewtest"
+                android:text="Party"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/electionname_card"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBaseline="@+id/textView13"
+                android:layout_alignBottom="@+id/textView13"
+                android:layout_toEndOf="@+id/textView13"
+                android:text="Election"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textviewtest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/textView13"
+                android:layout_marginLeft="3dp"
+                android:layout_toEndOf="@+id/nwv_candidate"
+                android:text="Party: "
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/nwv_candidate"
+                android:layout_alignStart="@+id/textviewtest"
+                android:layout_marginBottom="28dp"
+                android:text="Election Name:"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/rb_vote"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/nwv_candidate"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/electionname_card"
+                android:background="@drawable/selector_xml_btn_yellow"
+                android:text="Vote" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

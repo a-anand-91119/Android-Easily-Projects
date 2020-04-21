@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2A56C6</color>
+    <color name="colorPrimaryDark">#274EBD</color>
+    <color name="colorAccent">#000000</color>
+
+    <color name="textViewBackground">#a4a6ff</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="distance_color">#dadada</color>
+
+    <color name="ColorPrimary">#979797</color>
+    <color name="ColorPrimaryDark">#000000</color>
+</resources>

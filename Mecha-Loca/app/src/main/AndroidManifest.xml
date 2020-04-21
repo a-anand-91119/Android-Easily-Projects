@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.a3solutions.mecha_loca">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <permission
+        android:name="com.a3solutions.mecha_loca.MECHANIC_LOCATION"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.a3solutions.mecha_loca.MECHANIC_LOCATION" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+    <uses-feature android:name="android.hardware.location.gps" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".LoginActivity"></activity>
+        <activity android:name=".RegisterActivity" />
+        <activity
+            android:name=".MechanicActivity"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".UserActivity"
+            android:theme="@style/AppTheme2" />
+        <activity
+            android:name=".SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyBzm4IlbfI8xDnNdNVTZ3APoO-9PcPtXLo" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <service android:name=".MechanicLocatorService">
+            <intent-filter>
+                <action android:name="com.a3solutions.mecha_loca.MechanicLocatorService" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".MechSeeActivity"
+            android:theme="@style/AppTheme2" />
+    </application>
+
+</manifest>

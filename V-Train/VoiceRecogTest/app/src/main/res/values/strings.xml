@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">V-Ticketing</string>
+    <string name="tap_on_mic">Tap on mic to speak</string>
+
+    <string name="welcome">Welcome</string>
+    <string name="confirm_booking">Confirm Booking</string>
+    <string name="date_of_journey">Date Of Journey: </string>
+    <string name="number_of_tickets">Number Of Tickets: </string>
+
+    <string name="error_date">Error In Recognised Date. Please Try Again!!</string>
+    <string name="error_station_to">Failed To Recognize To Station. Please Try Again!!</string>
+    <string name="error_station_from">Failed To Recognize From Station. Please Try Again!!</string>
+    <string name="click_to_start_booking">Click To Start Booking</string>
+    <string name="history">History</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account">Don\'t Have An Account?</string>
+    <string name="login_to_your_account">Login To Your Account</string>
+    <string name="create_your_account">Create Your Account</string>
+    <string name="name">Name</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="email_id">Email Id</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="no_booking_found">No Booking Found</string>
+    <string name="past_booking">Past Booking History</string>
+    <string name="help">Help</string>
+    <string name="pnr">PNR:</string>
+    <string name="to">To:</string>
+    <string name="frm">From:</string>
+    <string name="doj">Date of Journey:</string>
+</resources>

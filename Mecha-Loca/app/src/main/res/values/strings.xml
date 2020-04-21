@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Mecha-Loca</string>
+    <string name="login">Login</string>
+    <string name="login_to_your_account">Login To Your Account</string>
+    <string name="don_t_have_an_account_yet">Don\'t Have An Account Yet?</string>
+    <string name="create_your_account">Create Your Account</string>
+    <string name="distance">Distance</string>
+    <string name="user_id">User Id:</string>
+    <string name="latitude">Latitude:</string>
+    <string name="longitude">Longitude:</string>
+    <string name="mob">Mob:</string>
+    <string name="logout">Logout</string>
+</resources>

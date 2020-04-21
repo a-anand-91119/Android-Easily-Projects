@@ -1,0 +1,29 @@
+<?php
+include("dbconnect.php");
+$list=$_POST["list"];
+$result=json_decode($list,true);
+$count=0;
+$length=$result["length"];
+$class=$result["class"];
+$subject=$result["subject"];
+$date=$result["date"];
+$response=array();
+$response["success"]=false;
+while($count<$length)
+{
+	$id=$result["students"][$count]["id"];
+	$status=$result["students"][$count]["status"];
+	$res2=mysqli_query($conn,"INSERT INTO `attendance` (`class`,`subject`,`date`,`student_id`,`status`) VALUES ('$class','$subject','$date','$id','$status')");
+	$affected=mysqli_affected_rows($conn);
+	if($affected>-1){
+		$response["success"]=true;
+	}
+	else{
+		$response["success"]=false;
+	}
+	$count=$count+1;
+}
+echo json_encode($response);
+mysqli_close($conn);
+exit();
+?>

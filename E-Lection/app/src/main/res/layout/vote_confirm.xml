@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="16dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Candidate Name:"
+        android:layout_width="wrap_content"
+        android:layout_margin="3dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView14" />
+
+    <TextView
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_margin="3dp"
+        android:id="@+id/tv_vote_candidname_confirm"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/textView14" />
+
+    <TextView
+        android:text="Party:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView14"
+        android:layout_margin="3dp"
+        android:layout_alignParentStart="true"
+        android:id="@+id/textView16" />
+
+    <TextView
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_margin="3dp"
+        android:layout_below="@+id/textView14"
+        android:layout_toEndOf="@+id/textView16"
+        android:id="@+id/tv_vote_party_confirm" />
+</RelativeLayout>

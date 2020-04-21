@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.a3solutions.e_college.StudentActivity">
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:padding="5dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFF"
+        android:background="@color/colorPrimaryDark"
+        android:layout_centerVertical="true"
+        android:text="Download Notes" />
+
+    <Button
+        android:id="@+id/button11"
+        android:padding="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="wrap_content"
+        android:textColor="#FFF"
+        android:background="@color/colorPrimaryDark"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button10"
+        android:layout_alignStart="@+id/button10"
+        android:text="View Attendance" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:textColor="#FFF"
+        android:background="@color/colorPrimaryDark"
+        android:padding="5dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button10"
+        android:layout_centerHorizontal="true"
+        android:text="Ask Questions" />
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="wrap_content"
+        android:textColor="#FFF"
+        android:layout_marginTop="5dp"
+        android:padding="5dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_height="wrap_content"
+        android:text="View Answers"
+        android:layout_below="@+id/button2"
+        android:layout_alignEnd="@+id/button2" />
+
+</RelativeLayout>
